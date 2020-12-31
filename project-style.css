@@ -1,0 +1,321 @@
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1em;
+}
+
+/*The nav bar is a modified version of https://www.w3schools.com/howto/howto_js_topnav.asp*/
+
+.menu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  color: #d73f09;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #d73f09;
+  color: white;
+}
+
+/*code for how to get the video to be fullscreen in the backround from
+  https://slicejack.com/fullscreen-html5-video-background-css/ */
+
+.fullscreen-div{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.background_video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;  
+}
+
+@media (min-aspect-ratio: 16/9) {
+	
+	.background_video {
+		height:300%;
+		top: -100%;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.background_video {
+		width: 300%;
+		left: -100%;
+	}
+}
+
+
+
+#left {
+  position: relative;
+  right:50px;
+  bottom:663px;  
+  height:100px;
+  width:100px;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+
+}
+#right {
+  position: relative;
+  left:705px;
+  bottom:663px; 
+  height:100px;
+  width:100px; 
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+ 
+}
+
+#sourcew {
+  position: absolute;
+  top:0;
+  right:0;
+  color:white;  
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+
+}
+
+.transbox {	
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.transbox p,h3{
+  margin: 5%;
+  font-weight: bold;
+  font-family:Arial,Helvetica, sans-serif;
+  font-size:1.25em;
+  text-align:center;
+  color: #000000;
+}
+
+#exp{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  margin: 5%;
+  font-weight: bold;
+  font-family:Arial,Helvetica, sans-serif;
+  font-size:1.25em;
+  text-align:center;
+  color: #000000;
+}
+
+.transbox2 {	
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  position:relative;
+  left:33%;
+  width:800px;
+  height:600px;
+  overflow:auto;
+
+
+}
+
+.transbox2 h4{
+  margin: 5%;
+  font-weight: bold;
+  text-align:center;
+  font-size:1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.transbox2 h5{
+  margin: 5%;
+  font-weight: bold;
+  text-align:center;
+  font-size:1.3em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.transbox2 li{
+  margin: 5%;
+  text-align:center;
+  font-size:1.3em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.transbox2 p{
+  margin: 5%;
+  text-align:center;
+  font-size:1.1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+#nam {
+  color:white;
+}
+
+#experience{
+  border:1px;
+  width:610px;
+  text-align:center;
+
+}
+
+video {
+  position:relative;
+  left:152.5px;  
+}
+
+#media_source {
+  border:0px;
+  width:610px;
+  text-align:center;  
+}
+
+#cont {
+  width:350px;
+  border:1px solid #ccc;  
+}
+
+#desc {
+  border:1px solid #ccc;	
+  width:610px;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1em;
+}
+
+#logo {
+  position:absolute;
+  left:700px;
+  bottom:1px;
+  top:255px;
+  height:450px;
+  width:450px;  
+}
+
+#logo2 {
+  position:absolute;
+  left:700px;
+  height:413px;
+  width:450px; 
+  bottom:1px;
+  top:738px;  
+}
+
+#lang{
+  border:1px solid #ccc;
+  width:310px;
+  height:410px;
+}
+
+#soft{
+  position:relative;
+  left:314px;
+  bottom:412px;
+  border:1px solid #ccc;
+  width:310px;
+  height:410px;
+}
+
+#resc{
+  border:1px solid #ccc;
+  width:310px;
+  height:190px;
+  position:relative;
+  left:627px;
+  bottom:824px;
+  height:410px;
+}
+#out-link1, #out-link2{
+  color:blue;
+}
+
+#stre{
+  border:1px solid #ccc;
+  width:310px;
+  height:190px;
+  position:relative;
+  left:942px;
+  bottom:1236px;
+  height:410px;
+}
+
+#contact_me{
+  position:absolute;
+  left:360px;
+  bottom:10px;
+}
+
+#contact_src{
+  position: relative;
+  left:400px;  
+}
+
+#response-status{
+  position:relative;
+  top:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  background-color:black;
+  color:white;
+}
+
+.contact-form{
+  position:relative;
+  top:5px;
+  height:200px;
+  width:350px;
+  border:1px  solid #ccc;
+  font:Arial, Helvetica, sans-serif;
+  overflow:auto;
+}
+

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+	<link rel='stylesheet' href='project-style.css'>
+	<title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+	<div class='menu'>
+      <a href='welcome.html'>Welcome</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a class="active" href="contact.html">Contact</a>
+    </div>
+	<div id='cont'>
+	  <h3>Contact Form</h3>
+	    <p>Again, thank you so much for visiting!</p>
+	    <p>Please feel free to leave some contact details, and the opportunity you have available below.</p>
+	    <p>I look forward to speaking to you!</p>
+	</div>
+	<div class='contact-form'>
+	  <form action = '' method='get' class ='contact-form'>
+	    <div>
+		  <label for='name'>Enter your name: </label>
+		  <input type='text' name='name' id='name' required>
+		  <br>
+		  <label for='email'>Enter your email: </label>
+		  <input type='email' name='email' id='email' required>
+		  <br>
+		  <label for='company'>Company Name: </label>
+		  <input type='text' name='company' id='company' required>
+		  <br>
+		  <label for 'salary'>Salary Range: </label>
+		  <input type='text' name='salary' id='salary' required>
+		  <br>
+		  <label for='role'> Describe the role: </lable>
+          <textarea id='role' name='role' required></textarea>
+		  <br>
+		  <input type='submit' value='Submit' id='contact_submit'>
+		</div> 		
+	  </form>
+	</div>
+	<div id='response-status'></div>
+	<img src='contact me.jpg' id='contact_me'>
+	<div>
+	  <p id='contact_src'>Image Source: Matt Lawless https://mattlawless.weebly.com/contact-me.html</p>
+	</div>
+	<script src='project.js'></script
+</body>
+</html>
